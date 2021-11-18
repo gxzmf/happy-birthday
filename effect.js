@@ -51,14 +51,6 @@ $('document').ready(function () {
         $('body').css('backgroud-color', '#FFF');
         $('body').addClass('peach-after');
         $(this).fadeOut('slow').delay(time).promise().done(function () {
-            $('#play2').fadeIn('slow');
-        });
-    });
-    $('#play2').click(function () {
-        var audio1 = $('.song1')[0];
-        audio.pause();
-        audio1.play();
-        $(this).fadeOut('slow').delay(time).promise().done(function () {
             $('#bannar_coming').fadeIn('slow');
         });
     });
